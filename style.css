@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(201, 185, 165);
+    margin: 20%;
+    display: flex;
+}
+.caja{
+    margin: auto;
+    perspective: 700px;
+    perspective-origin: 700px;
+}
+.cara{
+    width:200px;
+    height:200 px;
+    background: gold;
+    transition: all 5s ;
+    transform-style:preserve-3d;
+}
+.cara1{
+    width:200px;
+    height:200 px;
+    background-color: blueviolet;
+    margin: 0;
+    transform: rotateY(90deg);
+}
+/*el hover sepone para cunado se le pase el mause*/
+.cara:hover{
+    transform: rotateY(960deg);
+}
